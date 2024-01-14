@@ -24,7 +24,7 @@ Run the script to visualize the needle dropping simulation and the resulting his
 
 ## Simulation Process
 1. Parallel Lines Setup: Lines are drawn parallel at a distance `d` from each other.
-2. Needle dropping loop. Random needles are dropped, and the script calculates the number of crossings for each needle.
+2. Needle dropping loop: Random needles are dropped, and the script calculates the number of crossings for each needle.
 3. Visualization: The script generates the calculated probabilities which are showcased with a plot, providing insights into the distribution.
 
 
