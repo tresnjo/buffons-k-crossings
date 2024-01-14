@@ -43,7 +43,7 @@ $$ P(0 \ \text{crossings}) = 1 - P(\text{at least one crossing})$$
 We initialize the problem by working with a simpler case, and hopefully it will become clearer on how we can extrapolate the result. Firstly study the figure below
 ![Skärmbild 2024-01-14 184905-modified](https://github.com/Thidius/buffons-k-crossings/assets/121384892/c62b2389-044e-46af-9926-88dde4d5fc55)
 
-We are interested in finding out the probability of getting exactly $1$ crossing. Note that the minimum angle that suffices this condition is given by $\theta_\text{min} = \arcsin \frac{1\cdot d - y}{l}$ simply by using trigonometry. First subtracting the left dashed white distance $1\cdot d$ with the uniformly distributed $y$ gives us the displacement in the $y$ direction, and the hypotenuse is given by $l$. 
+We are interested in finding out the probability of getting exactly $1$ crossing. Note that the minimum angle that suffices this condition is given by $\theta_\text{min} = \arcsin \frac{1\cdot d - y}{l}$ simply by using trigonometry. First subtracting the left dashed white distance $1\cdot d$ with the uniformly distributed $y$ gives us the displacement in the $y$ direction, which gives us the shorter green dashed distance, and the hypotenuse is then trivially given by $l$. 
 
 Similarly we can deduce that the the maximum angle $\theta$ is given by $\theta_\text{max} = \arcsin \frac{2\cdot d - y}{l}$. Therefore we have the condition for getting $1$ crossing to be: 
 
