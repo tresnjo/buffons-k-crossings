@@ -63,7 +63,7 @@ For calculating the probability of getting $m$ crossings, we utilize firstly tha
 
 $$P(m \ \text{crossings}) = P(\text{at least one crossing}) -P(k=1,2,...,m-1)= $$
 
-$$ = \frac{2l}{\pi d} \left(\frac{d}{l} \arccos\frac{d}{l} + 1 - \sqrt{1-\left(\frac{d}{l}\right)}\right) - \sum_{k=1}^{m-1} P(k \ \text{crossings})$$
+$$ = \frac{2l}{\pi d} \left(\frac{d}{l} \arccos\frac{d}{l} + 1 - \sqrt{1-\left(\frac{d}{l}\right)^2}\right) - \sum_{k=1}^{m-1} P(k \ \text{crossings})$$
 
 Notice however that if we define 
 
@@ -75,7 +75,7 @@ $$\sum_{k=1}^{m-1} P(k \ \text{crossings}) = \sum_{k=1}^{m-1} I(k+1)-I(k) = I(m)
 
 becomes a simply telescoping sum, meaning we end up with
 
-$$P(m \ \text{crossings}) = \frac{2l}{\pi d} \left(\frac{d}{l} \arccos\frac{d}{l} + 1 - \sqrt{1-\left(\frac{d}{l}\right)}\right) - I(m) + I(1)$$
+$$P(m \ \text{crossings}) = \frac{2l}{\pi d} \left(\frac{d}{l} \arccos\frac{d}{l} + 1 - \sqrt{1-\left(\frac{d}{l}\right)^2}\right) - I(m) + I(1)$$
 
 ## Additional resources
 I have also created a Desmos environment where I have tried to visualize the integrals for each $k$. It can also be used for verifying the results provided by the Python simulation. Sliders are included to play around with $l$ and $d$, and all the probabilities calculated above are collected in a folder. I hope you will enjoy it!
