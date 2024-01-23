@@ -80,5 +80,5 @@ $$P(m \ \text{crossings}) = \frac{2l}{\pi d} \left(\frac{d}{l} \arccos\frac{d}{l
 ## Additional resources
 I have also created a Desmos environment where I have tried to visualize the integrals for each $k$. It can also be used for verifying the results provided by the Python simulation. Sliders are included to play around with $l$ and $d$, and all the probabilities calculated above are collected in a folder. I hope you will enjoy it!
 
-[Desmos Interactive](https://www.desmos.com/calculator/jxt6gtplng)
+[Desmos Interactive](https://www.desmos.com/calculator/ym5pbx30ep)
 
