@@ -29,7 +29,7 @@ Run the script to visualize the needle dropping simulation and the resulting his
 
 
 ## Mathematical derivation for the probabilities
-The needle is dropped as in the figure above, with a distributed $\theta \in \mathcal{U}[0,\pi/2]$ and $y\in\mathcal{U}(0,d)$. These two ranges are sufficient to cover the sample space we are interested in because of symmetry reasons. Also, we will keep $y$ as an open set to ignore the special cases when the needle precisely crosses the line and accept it as null measure. 
+The needle is dropped as in the figure above, with a distributed $\theta \sim \mathcal{U}[0,\pi/2]$ and $y\sim\mathcal{U}(0,d)$. These two ranges are sufficient to cover the sample space we are interested in because of symmetry reasons. Also, we will keep $y$ as an open set to ignore the special cases when the needle precisely crosses the line and accept it as null measure. 
 
 
 ### Case $k= 0$
