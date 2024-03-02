@@ -11,7 +11,7 @@ Ensure you have the following Python libraries installed:
 - `matplotlib`
 - `numpy`
 
-## Usage
+## Usage of 'k-crossings.py'
 Open the script in a Python environment.
 Modify the `no_of_needles`, `l`, and `d` parameters as needed.
 Run the script to visualize the needle dropping simulation and the resulting histogram of crossings.
